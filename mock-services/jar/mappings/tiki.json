@@ -1,0 +1,69 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/tiki/api/v1/product/tiki_111111"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n \"id\":\"tiki_111111\",\n   \"is_deal\":true,\n  \"name\":\"Dép tổ ong\",\n   \"product_id\":\"tiki_111111\",\n   \"price\":10000,\n   \"inventory_status\":\"available\",\n   \"is_hot_deal\":true,\n   \"deal_specs\":{\n      \"is_hot_deal\":true,\n      \"qty\":5,\n      \"max_sale_qty\":1,\n      \"qty_ordered\":2,\n      \"special_to_date\":1609923600,\n      \"price\":10000,\n      \"list_price\":20000,\n      \"discount_rate\":50,\n      \"progress\":40,\n      \"progress_text\":\"\\u0110\\u00e3 b\\u00e1n 2\",\n      \"v5\":1\n   },\n   \"qty\":5,\n   \"qty_ordered\":2,\n   \"special_to_date\":\"2021-01-06 16:00:00\",\n   \"max_sale_qty\":1,\n   \"subscriber_and_save\":null,\n   \"installment_info\":null,\n   \"is_free_shipping\":false,\n   \"is_support_installation_package\":false\n, \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/tiki/api/v1/product/tiki_222222"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n \"id\":\"tiki_222222\",\n   \"is_deal\":true,\n  \"name\":\"Bàn chải điện Oral B\",\n   \"product_id\":\"tiki_222222\",\n   \"price\":510000,\n   \"inventory_status\":\"available\",\n   \"is_hot_deal\":true,\n   \"deal_specs\":{\n      \"is_hot_deal\":true,\n      \"qty\":5,\n      \"max_sale_qty\":1,\n      \"qty_ordered\":2,\n      \"special_to_date\":1609923600,\n      \"price\":510000,\n      \"list_price\":850000,\n      \"discount_rate\":40,\n      \"progress\":40,\n      \"progress_text\":\"\\u0110\\u00e3 b\\u00e1n 2\",\n      \"v5\":1\n   },\n   \"qty\":5,\n   \"qty_ordered\":2,\n   \"special_to_date\":\"2021-01-06 16:00:00\",\n   \"max_sale_qty\":1,\n   \"subscriber_and_save\":null,\n   \"installment_info\":null,\n   \"is_free_shipping\":false,\n   \"is_support_installation_package\":false\n, \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/tiki/api/v1/product/tiki_333333"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n \"id\":\"tiki_333333\",\n   \"is_deal\":true,\n  \"name\":\"Túi xách Nam AZDTN93TI\",\n   \"product_id\":\"tiki_333333\",\n   \"price\":100000,\n   \"inventory_status\":\"available\",\n   \"is_hot_deal\":true,\n   \"deal_specs\":{\n      \"is_hot_deal\":true,\n      \"qty\":5,\n      \"max_sale_qty\":1,\n      \"qty_ordered\":2,\n      \"special_to_date\":1609923600,\n      \"price\":100000,\n      \"list_price\":210000,\n      \"discount_rate\":52,\n      \"progress\":40,\n      \"progress_text\":\"\\u0110\\u00e3 b\\u00e1n 2\",\n      \"v5\":1\n   },\n   \"qty\":5,\n   \"qty_ordered\":2,\n   \"special_to_date\":\"2021-01-06 16:00:00\",\n   \"max_sale_qty\":1,\n   \"subscriber_and_save\":null,\n   \"installment_info\":null,\n   \"is_free_shipping\":false,\n   \"is_support_installation_package\":false\n, \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/tiki/api/v1/product/tiki_444444"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n \"id\":\"tiki_444444\",\n   \"is_deal\":true,\n  \"name\":\"Tai nghe Sennheister S2212\",\n   \"product_id\":\"tiki_444444\",\n   \"price\":3100000,\n   \"inventory_status\":\"available\",\n   \"is_hot_deal\":true,\n   \"deal_specs\":{\n      \"is_hot_deal\":true,\n      \"qty\":5,\n      \"max_sale_qty\":1,\n      \"qty_ordered\":2,\n      \"special_to_date\":1609923600,\n      \"price\":3100000,\n      \"list_price\":4200000,\n      \"discount_rate\":26,\n      \"progress\":40,\n      \"progress_text\":\"\\u0110\\u00e3 b\\u00e1n 2\",\n      \"v5\":1\n   },\n   \"qty\":5,\n   \"qty_ordered\":2,\n   \"special_to_date\":\"2021-01-06 16:00:00\",\n   \"max_sale_qty\":1,\n   \"subscriber_and_save\":null,\n   \"installment_info\":null,\n   \"is_free_shipping\":false,\n   \"is_support_installation_package\":false\n, \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/tiki/api/v1/product/tiki_555555"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n \"id\":\"tiki_555555\",\n   \"is_deal\":true,\n  \"name\":\"Ví Nam v1234\",\n   \"product_id\":\"tiki_555555\",\n   \"price\":40000,\n   \"inventory_status\":\"available\",\n   \"is_hot_deal\":true,\n   \"deal_specs\":{\n      \"is_hot_deal\":true,\n      \"qty\":5,\n      \"max_sale_qty\":1,\n      \"qty_ordered\":2,\n      \"special_to_date\":1609923600,\n      \"price\":40000,\n      \"list_price\":60000,\n      \"discount_rate\":33,\n      \"progress\":40,\n      \"progress_text\":\"\\u0110\\u00e3 b\\u00e1n 2\",\n      \"v5\":1\n   },\n   \"qty\":5,\n   \"qty_ordered\":2,\n   \"special_to_date\":\"2021-01-06 16:00:00\",\n   \"max_sale_qty\":1,\n   \"subscriber_and_save\":null,\n   \"installment_info\":null,\n   \"is_free_shipping\":false,\n   \"is_support_installation_package\":false\n, \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    }
+  ]
+}

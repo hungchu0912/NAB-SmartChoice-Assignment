@@ -1,0 +1,40 @@
+version: "3.3"
+services:
+  mock-services:
+    build: ./mock-services
+    ports:
+      - "9000:9000"
+
+  mysql-server:
+    image: "mysql:latest"
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=datacollectordb
+      - MYSQL_USER=datacollector
+      - MYSQL_PASSWORD=password
+
+  activemq:
+    image: "rmohr/activemq"
+    ports:
+      - "61616:61616"
+      - "8161:8161"
+
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example

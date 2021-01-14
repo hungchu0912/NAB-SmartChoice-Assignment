@@ -1,0 +1,70 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/shopee/api/v1/item/shopee_111111"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n   \"item\":{\n      \"itemid\":\"shopee_111111\",\n      \"name\":\"Dép tổ ong\",\n      \"price\":9000,\n      \"price_max_before_discount\":21000,\n      \"price_max\":600000,\n      \"price_min\":9000,\n      \"price_before_discount\":21000,\n      \"raw_discount\":57,\n      \"item_status\":\"normal\",\n      \"is_non_cc_installment_payment_eligible\":false,\n      \"cod_flag\":0,\n      \"catid\":13242,\n      \"is_official_shop\":true,\n      \"sold\":5,\n      \"makeup\":null,\n      \"other_stock\":32,\n      \"shopid\":112766747,\n      \"normal_stock\":32,\n      \"shopee_verified\":false,\n      \"discount_stock\":5,\n      \"is_adult\":false,\n      \"currency\":\"VND\",\n      \"stock\":5,\n      \"status\":1,\n      \"shop_location\":\"TP. Ho Chi Minh\"\n   , \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"},\n   \"version\":\"4a1af592d204c8f8d870a97acbc4d8da\",\n   \"data\":null,\n   \"error_msg\":null,\n   \"error\":null\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/shopee/api/v1/item/shopee_222222"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n   \"item\":{\n      \"itemid\":\"shopee_222222\",\n      \"name\":\"Bàn chải điện Oral B\",\n      \"price\":500000,\n      \"price_max_before_discount\":900000,\n      \"price_max\":900000,\n      \"price_min\":500000,\n      \"price_before_discount\":900000,\n      \"raw_discount\":44,\n      \"item_status\":\"normal\",\n      \"is_non_cc_installment_payment_eligible\":false,\n      \"cod_flag\":0,\n      \"catid\":13242,\n      \"is_official_shop\":true,\n      \"sold\":5,\n      \"makeup\":null,\n      \"other_stock\":32,\n      \"shopid\":112766747,\n      \"normal_stock\":32,\n      \"shopee_verified\":false,\n      \"discount_stock\":5,\n      \"is_adult\":false,\n      \"currency\":\"VND\",\n      \"stock\":5,\n      \"status\":1,\n      \"shop_location\":\"TP. Ho Chi Minh\"\n   , \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\"},\n   \"version\":\"4a1af592d204c8f8d870a97acbc4d8da\",\n   \"data\":null,\n   \"error_msg\":null,\n   \"error\":null\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/shopee/api/v1/item/shopee_333333"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n   \"item\":{\n      \"itemid\":\"shopee_333333\",\n      \"name\":\"Túi xách Nam AZDTN93TI\",\n      \"price\":100000,\n      \"price_max_before_discount\":210000,\n      \"price_max\":210000,\n      \"price_min\":100000,\n      \"price_before_discount\":210000,\n      \"raw_discount\":52,\n      \"item_status\":\"normal\",\n      \"is_non_cc_installment_payment_eligible\":false,\n      \"cod_flag\":0,\n      \"catid\":13242,\n      \"is_official_shop\":true,\n      \"sold\":5,\n      \"makeup\":null,\n      \"other_stock\":32,\n      \"shopid\":112766747,\n      \"normal_stock\":32,\n      \"shopee_verified\":false,\n      \"discount_stock\":5,\n      \"is_adult\":false,\n      \"currency\":\"VND\",\n      \"stock\":5,\n      \"status\":1,\n      \"shop_location\":\"TP. Ho Chi Minh\"\n  , \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\" },\n   \"version\":\"4a1af592d204c8f8d870a97acbc4d8da\",\n   \"data\":null,\n   \"error_msg\":null,\n   \"error\":null\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/shopee/api/v1/item/shopee_444444"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n   \"item\":{\n      \"itemid\":\"shopee_444444\",\n      \"name\":\"Tai nghe Sennheister S2212\",\n      \"price\":2500000,\n      \"price_max_before_discount\":4000000,\n      \"price_max\":4000000,\n      \"price_min\":2500000,\n      \"price_before_discount\":4000000,\n      \"raw_discount\":37,\n      \"item_status\":\"normal\",\n      \"is_non_cc_installment_payment_eligible\":false,\n      \"cod_flag\":0,\n      \"catid\":13242,\n      \"is_official_shop\":true,\n      \"sold\":5,\n      \"makeup\":null,\n      \"other_stock\":32,\n      \"shopid\":112766747,\n      \"normal_stock\":32,\n      \"shopee_verified\":false,\n      \"discount_stock\":5,\n      \"is_adult\":false,\n      \"currency\":\"VND\",\n      \"stock\":5,\n      \"status\":1,\n      \"shop_location\":\"TP. Ho Chi Minh\"\n  , \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\" },\n   \"version\":\"4a1af592d204c8f8d870a97acbc4d8da\",\n   \"data\":null,\n   \"error_msg\":null,\n   \"error\":null\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    }
+  ,
+    {
+      "request": {
+        "method": "GET",
+        "url": "/shopee/api/v1/item/shopee_555555"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n   \"item\":{\n      \"itemid\":\"shopee_555555\",\n      \"name\":\"Ví Nam v1234\",\n      \"price\":45000,\n      \"price_max_before_discount\":60000,\n      \"price_max\":60000,\n      \"price_min\":45000,\n      \"price_before_discount\":60000,\n      \"raw_discount\":25,\n      \"item_status\":\"normal\",\n      \"is_non_cc_installment_payment_eligible\":false,\n      \"cod_flag\":0,\n      \"catid\":13242,\n      \"is_official_shop\":true,\n      \"sold\":5,\n      \"makeup\":null,\n      \"other_stock\":32,\n      \"shopid\":112766747,\n      \"normal_stock\":32,\n      \"shopee_verified\":false,\n      \"discount_stock\":5,\n      \"is_adult\":false,\n      \"currency\":\"VND\",\n      \"stock\":5,\n      \"status\":1,\n      \"shop_location\":\"TP. Ho Chi Minh\"\n  , \"imgUrl\": \"https://salt.tikicdn.com/cache/w444/ts/product/00/4f/6a/81e9988c436081bec6aa58bf68ade504.jpg\" },\n   \"version\":\"4a1af592d204c8f8d870a97acbc4d8da\",\n   \"data\":null,\n   \"error_msg\":null,\n   \"error\":null\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    }
+  ]
+}

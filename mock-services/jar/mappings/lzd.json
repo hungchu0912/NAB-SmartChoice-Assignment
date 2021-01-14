@@ -1,0 +1,69 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/lazada/api/v1/item/lzd_111111"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n    \"code\": \"0\",\n    \"data\": {\n        \"item_id\": \"lzd_111111\",\n\t\t\"name\": \"Dép tổ ong\",\n        \"special_price\": 12000,\n        \"price\": 30000,\n        \"discount_rate\": 60,\n        \"Status\": \"active\",\n        \"quantity\": 0,\n        \"product_weight\": \"0.03\",\n        \"Images\": [\n            \"http://sg-live-01.slatic.net/p/BUYI1-catalog.jpg\",\n            \"\"\n        ],\n        \"SellerSku\": \"39817:01:01\",\n        \"ShopSku\": \"BU565ELAX8AGSGAMZ-1104491\",\n        \"Url\": \"https://alice.lazada.sg/asd-1083832.html\",\n        \"special_to_time\": \"2020-02-0300:00\",\n        \"special_from_time\": \"2015-07-3100:00\",\n        \"package_height\": \"4.00\",\n        \"Available\": 0,\n        \"SkuId\": 314525867,\n        \"special_to_date\": \"2020-02-03\"\n    },\n    \"request_id\": \"0ba2887315178178017221014\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/lazada/api/v1/item/lzd_222222"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n  \"code\": \"0\",\n  \"data\": {\n    \"item_id\": \"lzd_222222\",\n\t\t\"name\": \"Bàn chải điện Oral B\",\n\t\"special_price\": 55000,\n\t\"price\": 90000,\n\t\"discount_rate\": 39,\n\t\"Status\": \"active\",\n\t\"quantity\": 0,\n\t\"product_weight\": \"0.03\",\n\t\"Images\": [\n\t  \"http://sg-live-01.slatic.net/p/BUYI1-catalog.jpg\",\n\t  \"\"\n\t],\n\t\"SellerSku\": \"39817:01:01\",\n\t\"ShopSku\": \"BU565ELAX8AGSGAMZ-1104491\",\n\t\"Url\": \"https://alice.lazada.sg/asd-1083832.html\",\n\t\"special_to_time\": \"2020-02-0300:00\",\n\t\"special_from_time\": \"2015-07-3100:00\",\n\t\"package_height\": \"4.00\",\n\t\"Available\": 0,\n\t\"SkuId\": 314525867,\n\t\"special_to_date\": \"2020-02-03\"\n  },\n  \"request_id\": \"0ba2887315178178017221014\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/lazada/api/v1/item/lzd_333333"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n    \"code\": \"0\",\n    \"data\": {\n        \"item_id\": \"lzd_333333\",\n\t\t\"name\": \"Túi xách Nam AZDTN93TI\",\n        \"special_price\": 80000,\n        \"price\": 160000,\n        \"discount_rate\": 50,\n        \"Status\": \"active\",\n        \"quantity\": 0,\n        \"product_weight\": \"0.03\",\n        \"Images\": [\n            \"http://sg-live-01.slatic.net/p/BUYI1-catalog.jpg\",\n            \"\"\n        ],\n        \"SellerSku\": \"39817:01:01\",\n        \"ShopSku\": \"BU565ELAX8AGSGAMZ-1104491\",\n        \"Url\": \"https://alice.lazada.sg/asd-1083832.html\",\n        \"special_to_time\": \"2020-02-0300:00\",\n        \"special_from_time\": \"2015-07-3100:00\",\n        \"package_height\": \"4.00\",\n        \"Available\": 0,\n        \"SkuId\": 314525867,\n        \"special_to_date\": \"2020-02-03\"\n    },\n    \"request_id\": \"0ba2887315178178017221014\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/lazada/api/v1/item/lzd_444444"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n    \"code\": \"0\",\n    \"data\": {\n        \"item_id\": \"lzd_444444\",\n\t\t\"name\": \"Tai nghe Sennheister S2212\",\n        \"special_price\": 2800000,\n        \"price\": 4100000,\n        \"discount_rate\": 32,\n        \"Status\": \"active\",\n        \"quantity\": 0,\n        \"product_weight\": \"0.03\",\n        \"Images\": [\n            \"http://sg-live-01.slatic.net/p/BUYI1-catalog.jpg\",\n            \"\"\n        ],\n        \"SellerSku\": \"39817:01:01\",\n        \"ShopSku\": \"BU565ELAX8AGSGAMZ-1104491\",\n        \"Url\": \"https://alice.lazada.sg/asd-1083832.html\",\n        \"special_to_time\": \"2020-02-0300:00\",\n        \"special_from_time\": \"2015-07-3100:00\",\n        \"package_height\": \"4.00\",\n        \"Available\": 0,\n        \"SkuId\": 314525867,\n        \"special_to_date\": \"2020-02-03\"\n    },\n    \"request_id\": \"0ba2887315178178017221014\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/lazada/api/v1/item/lzd_555555"
+      },
+      "response": {
+        "status": 200,
+        "body": "{\n    \"code\": \"0\",\n    \"data\": {\n        \"item_id\": \"lzd_555555\",\n\t\t\"name\": \"Ví Nam v1234\",\n        \"special_price\": 50000,\n        \"price\": 80000,\n        \"discount_rate\": 38,\n        \"Status\": \"active\",\n        \"quantity\": 0,\n        \"product_weight\": \"0.03\",\n        \"Images\": [\n            \"http://sg-live-01.slatic.net/p/BUYI1-catalog.jpg\",\n            \"\"\n        ],\n        \"SellerSku\": \"39817:01:01\",\n        \"ShopSku\": \"BU565ELAX8AGSGAMZ-1104491\",\n        \"Url\": \"https://alice.lazada.sg/asd-1083832.html\",\n        \"special_to_time\": \"2020-02-0300:00\",\n        \"special_from_time\": \"2015-07-3100:00\",\n        \"package_height\": \"4.00\",\n        \"Available\": 0,\n        \"SkuId\": 314525867,\n        \"special_to_date\": \"2020-02-03\"\n    },\n    \"request_id\": \"0ba2887315178178017221014\"\n}",
+        "headers": {
+          "Content-Type": "application/json;charset=UTF-8"
+        }
+      }
+    }
+  ]
+}
