@@ -19,6 +19,12 @@ Example running by maven:
 After data-collector start successfully, it will fetch the data from mock-service to database. Now start product-api and audit service (using same steps as data-collector above)
 
 ## Running the tests
+#### CURL
+Product API serve 2 basic API for searching and get detail of products:
+curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p'
+curl --location --request GET 'localhost:8002/api/product/2'
+
+#### Unit Test
 Unit test can run either by maven or your favourite idea
 Example running by maven for data-collector:
 >. cd data-collector
@@ -32,7 +38,7 @@ For ease of developement, i'm using wiremock to set up mock service that acts as
 
 ### Data Collector
 Service to collect data from publisher (Tiki / Shopee / Lazada). When start service, it will consume api from publisher, do some transformation and save it to mysql database.
-This service using Spring Boot and Spring Batch framework.
+This service using Spring Boot and Spring Batch framework. A
 
 ### Product DB
 Store detail of the product from publisher
