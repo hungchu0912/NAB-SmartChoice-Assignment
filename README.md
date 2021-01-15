@@ -77,7 +77,7 @@ Message queue to transfer audit event. Product API publish audit event and Audit
 ### Limitation and Enhancement
 The above architecture has some limitation and the following should be concerned to fix / investigate:
 
-- Database: Since Data-Collector and Product-Api using same database, for now it wouldn't be a problem because Data-Collector is write side and Product-Api is read side. But seperate them would be a better approach since it using same db for multiple services would break Database per service pattern. We can consider either using database's replication feature - product api would use slave database for reading purpose, or seperate it using completely different database and synchronising between these database by kafka connect (or any other data synchronisation method)
+- Database: Since Data-Collector and Product-Api using same database, for now it wouldn't be a problem because Data-Collector is write side and Product-Api is read side. But seperate them would be a better approach and does not break Database per service pattern. We can consider either using database's replication feature - product api would use slave database for reading purpose, or seperate it using completely different database and synchronising between these database by kafka connect (or any other data synchronisation method)
 
 - ActiveMQ: Consider to using kafka instead of Active MQ for storing audit events. As Kafka would be more fit in this case both in storing and scaling capability.
 
