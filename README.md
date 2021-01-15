@@ -4,16 +4,21 @@ Demo for Smart choice backend services
 # Getting Started
 ## Prerequisites
 To make it easier for launch the project, i have set up database / queue / mock services that ready for use using docker and docker-compose. Therefore, docker and docker-compose is needed.
+
 Also, backend services written in java and using maven build tool. So java 8 and maven 3 is required.
 
 ## Installing
 Navigate to root folder NAB-SmartChoice-Assignment and run (This might take up a minute to start all the container)
+
 >. docker-compose up
 
 After all container started successfully, navigate to data-collector folder and start the service either by maven or your favourite idea
 Example running by maven:
+
 >. cd data-collector
+
 >. mvn clean install
+
 >. java -jar target/data-collector-0.0.1-SNAPSHOT.jar
 
 After data-collector start successfully, it will fetch the data from mock-service to database. Now start product-api and audit service (using same steps as data-collector above)
@@ -31,6 +36,7 @@ Example:
 Unit test can run either by maven or your favourite idea
 Example running by maven for data-collector:
 >. cd data-collector
+
 >. mvn clean test
 
 ## Architecture
