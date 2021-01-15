@@ -1,5 +1,6 @@
-package com.nab.dc.batch.product;
+package com.nab.dc.job.config;
 
+import com.nab.dc.batch.product.ProductRESTAPIWriter;
 import com.nab.dc.batch.product.lazada.LazadaApiReader;
 import com.nab.dc.batch.product.lazada.LazadaProductDetailProcessor;
 import com.nab.dc.batch.product.shopee.ShopeeApiReader;

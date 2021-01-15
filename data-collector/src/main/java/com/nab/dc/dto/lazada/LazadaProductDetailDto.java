@@ -13,7 +13,7 @@ public class LazadaProductDetailDto {
     private String request_id;
 
     @Data
-    public class DataDto {
+    public static class DataDto {
         @JsonProperty("item_id")
         private String itemId;
         private String name;

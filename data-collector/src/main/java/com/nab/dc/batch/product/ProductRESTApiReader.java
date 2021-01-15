@@ -1,6 +1,5 @@
 package com.nab.dc.batch.product;
 
-import com.nab.dc.dto.tiki.TikiProductDetailDto;
 import com.nab.dc.entity.PublisherProductMappingEntity;
 import com.nab.dc.entity.constant.PublisherName;
 import com.nab.dc.fetcher.Fetcher;
@@ -22,7 +21,7 @@ public abstract class ProductRESTApiReader<T> implements ItemReader<Map<Publishe
     }
 
     @Override
-    public Map<PublisherProductMappingEntity, T> read() throws Exception {
+    public Map<PublisherProductMappingEntity, T> read() {
         Map<PublisherProductMappingEntity, String> productMap = getProductIdMap();
         if (detailDtoMap == null) {
             detailDtoMap = new HashMap<>();

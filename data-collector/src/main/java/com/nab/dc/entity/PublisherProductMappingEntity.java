@@ -15,6 +15,8 @@ public class PublisherProductMappingEntity {
     private Integer id;
     @Column(name = "publisher_product_id")
     private String publisherProductId;
+    @Column(name = "product_name")
+    private String productName;
     @ManyToOne
     @JoinColumn(name = "publisher_id", referencedColumnName = "id", insertable = false, updatable = false)
     private PublisherEntity publisherEntity;
@@ -24,11 +26,11 @@ public class PublisherProductMappingEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         PublisherProductMappingEntity that = (PublisherProductMappingEntity) o;
-        return Objects.equals(id, that.id) && Objects.equals(publisherProductId, that.publisherProductId) && Objects.equals(publisherEntity, that.publisherEntity);
+        return Objects.equals(id, that.id) && Objects.equals(productName, that.productName) && Objects.equals(publisherProductId, that.publisherProductId) && Objects.equals(publisherEntity, that.publisherEntity);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, publisherProductId, publisherEntity);
+        return Objects.hash(id, publisherProductId, publisherEntity, productName);
     }
 }

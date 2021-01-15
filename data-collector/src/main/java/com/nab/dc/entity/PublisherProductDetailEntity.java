@@ -1,6 +1,5 @@
 package com.nab.dc.entity;
 
-import com.nab.dc.entity.constant.PublisherName;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -20,8 +19,7 @@ public class PublisherProductDetailEntity {
     @Column(name = "publisher_product_id")
     private String publisherProductId;
     @Column(name = "publisher_product_name")
-    @Enumerated(EnumType.STRING)
-    private PublisherName publisherProductName;
+    private String publisherProductName;
     @Column(name = "discount_rate")
     private Double discountRate;
     @Column(name = "promotion")

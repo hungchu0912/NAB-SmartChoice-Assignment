@@ -63,7 +63,7 @@ public class ProductServiceTest {
     }
 
     @Test
-    public void detail_success() {
+    public void detail_Success() {
         PublisherProductMappingEntity publisherProductMappingEntity = constructProductMapping(1, PRODUCT_NAME_1, PRODUCT_ID_1);
         publisherProductMappingEntity.setPublisherProductDetailEntities(constructListProductDetail());
         Mockito.when(publisherProductMappingRepository.findById(eq(1)))
@@ -74,7 +74,7 @@ public class ProductServiceTest {
     }
 
     @Test(expected = ValidationException.class)
-    public void detail_productNotFound() {
+    public void detail_ProductNotFound() {
         Mockito.when(publisherProductMappingRepository.findById(eq(1)))
                 .thenReturn(Optional.empty());
         ProductDetailResponseDto responseDto = productService.detail(1);
