@@ -12,7 +12,8 @@ Navigate to root folder NAB-SmartChoice-Assignment and run (This might take up a
 
 >. docker-compose up
 
-After all container started successfully, navigate to data-collector folder and start the service either by maven or your favourite idea
+After all container started successfully, navigate to data-collector folder and start the service either by maven or your favourite idea.
+
 Example running by maven:
 
 >. cd data-collector
@@ -58,11 +59,11 @@ Store detail of the product from publisher.
 ER schema:
 ![Screenshot](er-schema.png)
 
-publisher table: store information of publisher
+- publisher table: store information of publisher
 
-publisher product mapping: Mainly used to store product id in publisher site
+- publisher product mapping: Mainly used to store product id in publisher site
 
-publisher product detail: Store product detail
+- publisher product detail: Store product detail
 
 ### Product API
 Service to serve api for product
