@@ -32,7 +32,7 @@ Product API serve 2 basic API for searching and get detail of products.
 
 Example:
 
-curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p' --header 'x-authenticated-user-id: hung.chu'
+> curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p' --header 'x-authenticated-user-id: hung.chu'
 
 > curl --location --request GET 'localhost:8002/api/product/2'
 
