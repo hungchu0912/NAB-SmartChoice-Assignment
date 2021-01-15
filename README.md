@@ -5,6 +5,8 @@ Demo for Smart choice backend services
 ## Prerequisites
 To make it easier for launch the project, i have set up database / queue / mock services that ready for use using docker and docker-compose. Therefore, docker and docker-compose is needed.
 
+The following port on local machine should not be used before using docker-compose (Note: you can change these port in docker-compose.yml): 9000, 3307, 61616, 8161, 27017, 8081
+
 Also, backend services written in java and using maven build tool. So java 8 and maven 3 is required.
 
 ## Installing
@@ -30,9 +32,15 @@ Product API serve 2 basic API for searching and get detail of products.
 
 Example:
 
-> curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p'
+curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p' --header 'x-authenticated-user-id: hung.chu'
 
 > curl --location --request GET 'localhost:8002/api/product/2'
+
+#### Verify the result
+
+After start data-collector service, it would fill in data in publisher_product_detail table. You can check if this table is filled up or not.
+
+Audit is stored in mongodb. After call search api, you can check the result in mongo express ui (http://localhost:8081/) 
 
 #### Unit Test
 Unit test can run either by maven or your favourite idea
