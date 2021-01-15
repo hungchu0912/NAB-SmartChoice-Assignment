@@ -21,7 +21,9 @@ After data-collector start successfully, it will fetch the data from mock-servic
 ## Running the tests
 #### CURL
 Product API serve 2 basic API for searching and get detail of products:
+
 curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p'
+
 curl --location --request GET 'localhost:8002/api/product/2'
 
 #### Unit Test
