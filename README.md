@@ -47,7 +47,7 @@ For ease of developement, i'm using wiremock to set up mock service that acts as
 
 ### Data Collector
 Service to collect data from publisher (Tiki / Shopee / Lazada). When start service, it will consume api from publisher, do some transformation and save it to mysql database.
-This service using Spring Boot and Spring Batch framework. A
+This service using Spring Boot and Spring Batch framework.
 
 ### Product DB
 Store detail of the product from publisher
