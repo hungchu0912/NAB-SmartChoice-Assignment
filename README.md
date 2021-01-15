@@ -49,7 +49,7 @@ Example running by maven for data-collector:
 For ease of developement, i'm using wiremock to set up mock service that acts as Tiki / Shopee / Lazada api (The response json is copied from real api)
 
 ### Data Collector
-Service to collect data from publisher (Tiki / Shopee / Lazada). When start service, it will consume api from publisher, do some transformation and save it to mysql database.
+Service to collect data from publisher (Tiki / Shopee / Lazada). When start service, it will scan the publisher_product_mapping table, then consume api from publisher based on the mapping records, do some transformation and save it to publisher_product_detail.
 
 This service using Spring Boot and Spring Batch framework.
 
