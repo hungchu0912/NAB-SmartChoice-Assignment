@@ -10,17 +10,17 @@ Also, backend services written in java and using maven build tool. So java 8 and
 ## Installing
 Navigate to root folder NAB-SmartChoice-Assignment and run (This might take up a minute to start all the container)
 
->. docker-compose up
+> docker-compose up
 
 After all container started successfully, navigate to data-collector folder and start the service either by maven or your favourite idea.
 
 Example running by maven:
 
->. cd data-collector
+> cd data-collector
 
->. mvn clean install
+> mvn clean install
 
->. java -jar target/data-collector-0.0.1-SNAPSHOT.jar
+> java -jar target/data-collector-0.0.1-SNAPSHOT.jar
 
 After data-collector start successfully, it will fetch the data from mock-service to database. Now start product-api and audit service (using same steps as data-collector above)
 
@@ -30,17 +30,17 @@ Product API serve 2 basic API for searching and get detail of products.
 
 Example:
 
->. curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p'
+> curl --location --request GET 'localhost:8002/api/product?name=D%C3%A9p'
 
->. curl --location --request GET 'localhost:8002/api/product/2'
+> curl --location --request GET 'localhost:8002/api/product/2'
 
 #### Unit Test
 Unit test can run either by maven or your favourite idea
 
 Example running by maven for data-collector:
->. cd data-collector
+> cd data-collector
 
->. mvn clean test
+> mvn clean test
 
 ## Architecture
 
