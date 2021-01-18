@@ -89,6 +89,6 @@ The above architecture has some limitation and the following should be concerned
 
 - ActiveMQ: Consider to using kafka instead of Active MQ for storing audit events. As Kafka would be more fit in this case both in storing and scaling capability.
 
-- Authentication and Authorization: Due to short time of the implementation, Authentication and Authorization cannot be done. The whole appliocation is assuming these services is behind an api gateway that take care of authentication and authorization.
+- Authentication and Authorization: Due to short time of the implementation, Authentication and Authorization cannot be done. Assuming these services are behind an api gateway that take care of authentication and authorization.
 
 - Data Collector: Horizontal scaling for this service should be put under consideration as for now it does not have any mechanism to seperate the collect job between scaling services. A better approach should be consider is seperate this service to 2 services: Collector-Generator and Data-Collector. The Collector-Generator would produce the job/task information and publish to Kafka, and Data-Collector would consume job/task from kafka and process those messages to collect data from publisher.
